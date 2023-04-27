@@ -9,12 +9,13 @@ The .csv files used to create the tables are included in this repository
  - tables for temperature data were truncated to fit on github. Data for ncdc_fips >= 40001 has been cut.
 
 For up-to-date data, users can download the following files: 
-climdiv-tmpccy-v1.0.0- 
-climdiv-tmincy-v1.0.0- 
-climdiv-tmaxcy-v1.0.0- 
-climdiv-sp24dv-v1.0.0- 
-climdiv-sp01dv-v1.0.0- 
-county-to-climdivs.txt from https://www.ncei.noaa.gov/pub/data/cirs/climdiv/?C=S;O=D, along with any table that matches postal or NCDC FIPS codes to county and state names. As that data will not develop much with time, I recommend just using the 'postal county state' .csv included here.
+  climdiv-tmpccy-v1.0.0- 
+  climdiv-tmincy-v1.0.0- 
+  climdiv-tmaxcy-v1.0.0- 
+  climdiv-sp24dv-v1.0.0- 
+  climdiv-sp01dv-v1.0.0- 
+  county-to-climdivs.txt
+from https://www.ncei.noaa.gov/pub/data/cirs/climdiv/?C=S;O=D, along with any table that matches postal or NCDC FIPS codes to county and state names. As that data will not develop much with time, I recommend just using the 'postal county state' .csv included here.
 Some cleaning will be required.
 
 Alternatively, a link to the visualized data is pending.
