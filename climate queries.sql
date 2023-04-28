@@ -219,8 +219,8 @@ JOIN temps_max mx USING (ncdc_fips, year);
 CREATE VIEW delta_var AS
 SELECT ncdc_fips,
 ROUND(
-	AVG(CASE WHEN year < 1931 THEN (january+february+march+april+may+june+july+august+september+october+november+december)/12 END) -
-	AVG(CASE WHEN year > 1990 THEN (january+february+march+april+may+june+july+august+september+october+november+december)/12 END)
+	AVG(CASE WHEN year > 1990 THEN (january+february+march+april+may+june+july+august+september+october+november+december)/12 END) -
+	AVG(CASE WHEN year < 1931 THEN (january+february+march+april+may+june+july+august+september+october+november+december)/12 END)
 	, 2) as delta_variance
 FROM temps_variance
 GROUP BY ncdc_fips;
