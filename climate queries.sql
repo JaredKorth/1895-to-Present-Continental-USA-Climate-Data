@@ -99,7 +99,7 @@ GROUP BY ncdc_fips
 recent_avg AS
 (SELECT ncdc_fips, ROUND(AVG(january+february+march+april+may+june+july+august+september+october+november+december)/12, 2) AS recent_average
 FROM temps_avg
-WHERE year < 1990
+WHERE year > 1990
 GROUP BY ncdc_fips
 ),
 past_max AS
