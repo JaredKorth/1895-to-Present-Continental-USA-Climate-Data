@@ -18,7 +18,8 @@ For up-to-date data, users can download the following files:
 from https://www.ncei.noaa.gov/pub/data/cirs/climdiv/?C=S;O=D, along with any table that matches postal or NCDC FIPS codes to county and state names. As that data will not develop much with time, I recommend just using the 'postal county state' .csv included here.
 Some cleaning will be required.
 
-Alternatively, a link to the visualized data is pending.
+Alternatively, the data has been visualized at 
+https://public.tableau.com/app/profile/jared.korth/viz/USAClimateData/presentdash
 
 
 CREDITS
