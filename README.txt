@@ -19,7 +19,7 @@ from https://www.ncei.noaa.gov/pub/data/cirs/climdiv/?C=S;O=D, along with any ta
 Some cleaning will be required.
 
 Alternatively, the data has been visualized at 
-https://public.tableau.com/app/profile/jared.korth/viz/USAClimateData/presentdash
+https://public.tableau.com/app/profile/jared.korth/viz/USAClimateData_16836590617710/presentdash
 
 
 CREDITS
